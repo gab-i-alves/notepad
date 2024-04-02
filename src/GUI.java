@@ -28,6 +28,7 @@ public class GUI implements ActionListener {
     public void createWindow() {
         window = new JFrame("Notepad");
         window.setSize(800, 600);
+        window.setLocationRelativeTo(null);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
@@ -64,9 +65,6 @@ public class GUI implements ActionListener {
         iOpen = new JMenuItem("Open");
         iOpen.addActionListener(this);
         iOpen.setActionCommand("Open");
-        menuFile.add(iOpen);
-
-        iOpen = new JMenuItem("Open");
         menuFile.add(iOpen);
 
         iSave = new JMenuItem("Save");
