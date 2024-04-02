@@ -3,12 +3,12 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
 
-public class Functions {
+public class FunctionsFile {
     GUI gui;
     String fileName;
     String fileAddress;
 
-    public Functions(GUI gui) {
+    public FunctionsFile(GUI gui) {
         this.gui = gui;
     }
 
